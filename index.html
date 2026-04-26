@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="card">
+        <div id="pin-btn" class="active">📌</div>
+
+        <div id="title-bar">
+            <div id="song-title">Loading...</div>
+        </div>
+
+        <img id="album" src="" />
+
+        <div id="controls">
+            <div class="circle-btn" id="prev">
+                <img src="icons/prev-ios.svg">
+            </div>
+            <div class="circle-btn main" id="play">
+                <img id="play-icon" src="icons/play-ios.svg">
+            </div>
+            <div class="circle-btn" id="next">
+                <img src="icons/next-ios.svg">
+            </div>
+        </div>
+
+        <div id="progress">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
